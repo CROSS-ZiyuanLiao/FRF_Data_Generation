@@ -1,7 +1,8 @@
 fclose('all');
 clc, clear;
 
-n = 4;
+% number of the data set
+n = 6E4;
 
 leakPipeID = zeros(n, 1);
 lFromStart = zeros(n, 1);
@@ -222,4 +223,3 @@ normalizedFRF = absFRF/max(absFRF);
 % plot(omega, normalizedFRF, '.', omega, nFRFMOC);
 %------------------------------------------end--------------------------------------------
 end
-
