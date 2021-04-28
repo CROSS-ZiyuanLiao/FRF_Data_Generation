@@ -3,7 +3,7 @@ clc, clear;
 
 %% config
 % number of the FRFs to be generated in each dataset
-n = 4;
+n = 6E4;
 
 % standard deviation for roughness factor error
 sigma1 = 5e-3;
