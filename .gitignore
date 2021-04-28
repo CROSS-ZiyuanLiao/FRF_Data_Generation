@@ -1,2 +1,7 @@
 # MacOS sucks
 .DS_Store
+
+# MATLAB
+*.asv
+*.m~
+*.mat
