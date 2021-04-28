@@ -5,3 +5,6 @@
 *.asv
 *.m~
 *.mat
+
+# generate txt to record FRFs
+*.txt
