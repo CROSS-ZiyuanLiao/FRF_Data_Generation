@@ -167,7 +167,7 @@ for j = 1: nTimeGrid
         
         RHS1 = q2;
         RHS2 = diag(q3Steady)*tau;
-        RHS3 = invZ*S*M10u*r;
+        RHS3 = -invZ*S*M10u*r;
         RHS4 = (C*M10u-M10d)*r;
         
         % form matrix
@@ -189,7 +189,7 @@ for j = 1: nTimeGrid
         LHS43 = M12d-C*M12u;
         
         RHS1 = q2;
-        RHS3 = invZ*S*M10u*r;
+        RHS3 = -invZ*S*M10u*r;
         RHS4 = (C*M10u-M10d)*r;
         
         % form matrix
@@ -210,7 +210,7 @@ for j = 1: nTimeGrid
         LHS44 = M13d-C*M13u;
         
         RHS2 = diag(q3Steady)*tau;
-        RHS3 = invZ*S*M10u*r;
+        RHS3 = -invZ*S*M10u*r;
         RHS4 = (C*M10u-M10d)*r;
         
         % form matrix
